@@ -18,4 +18,5 @@ def builDockerImage(){
 
     echo "Pushing image to docker registry.."
     sh "docker push aceskaemilija/api-tests"
+    // some change
 }
